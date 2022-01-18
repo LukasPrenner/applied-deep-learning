@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head>
+    <title>Your Prediction!</title>
+</head>
+<body style="background-image: linear-gradient(135deg,#2fb9c4 -2.55%,#311e70 89.9%); font-family: Source Sans Pro; color: white;">
+<div id="maintext" style="position:absolute; margin:auto; width:700px; height:300px; text-align:center; top:0; bottom: 0; left: 0; right: 0;">
+  <h1>RESULT</h1>
+  <span style="font-weight: 500;">This was an image of:</span>
+  <h1>{{ predictions.class1 }}</h1>
+  <span style="font-weight: 500; font-size: 1em;">(Probability: {{ predictions.prob1 }})</span>
+  <br>
+  <br>
+<a href="{{ url_for('main_page') }}"><button class="button mt-3">Try again?</button></a>
+</div>
+</body>
+</html>
