@@ -1,5 +1,5 @@
 # Applied Deep Learning
-## Assignment 2
+## Assignment 3
 ### Lukas Prenner
 ------------------------------------
 
